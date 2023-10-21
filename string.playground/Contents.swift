@@ -28,3 +28,38 @@ let Exam = """
                and i alway have a pre screeming with Ebay
 """
 print(Exam)
+
+
+// using string to emplement a basic calendar app
+
+//constant day of the week
+
+let day = "monday"
+
+print("Today is \(day.uppercased())")
+
+let hour = "6"
+let min = "15"
+let period = "pm"
+let timeZone = "PST"
+
+var time = hour + ":" + min + " " + period
+
+print("It \(day) and the time is \(time)")
+
+//determine the current time zone update
+
+time += " " + timeZone
+
+print("\(time) on \(day)")
+
+// determine a short name for given day
+
+let shotName = day.prefix(3)
+print(shotName)
+print("It is \(time) on \(shotName)")
+
+
+
+
+
