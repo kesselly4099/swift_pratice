@@ -71,5 +71,19 @@ case "b","c","a": print("we found \(letter)")
 default:  break
 }
 
+// small weather app pratice
+
+let freeApp  = false
+let morningTemperature = 70
+let eveningTemperature = 80
+let temperatureDegree = "Fahrenheit"
+
+if freeApp{
+    print("You are using the Free version the app pay fo the full version")
+}else if morningTemperature < eveningTemperature {
+    print("yes the Place is cold, is \(morningTemperature) ")
+}else{
+    print("the place is warm is \(eveningTemperature) ")
+}
 
 
