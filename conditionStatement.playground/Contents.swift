@@ -23,6 +23,7 @@ if greeting == "morning"{
     
 }
 
+//switch Statement
 
 switch greeting{
 case "morning": print("Good Morning")
@@ -30,6 +31,7 @@ case "Afternoon": print("Good Afternoon")
 default: break
 }
 
+// else if statement
 
 let Lang = "Eng"
 let DoB = 2
@@ -40,7 +42,34 @@ if Lang == "Eng" && DoB == 24 {
 } else if Lang == "Eng" && DoB == 22{
     print("No we can try to go")
 }else{
-    print("we can do it at all")
+    print(" we can do it at all ")
 }
+
+// switch don't use logical
+
+let yes = (Lang, DoB)
+switch yes{
+case ("Eng",2) :print("this is english")
+default:
+    <#code#>
+}
+
+// grouping comparasion operator with logical operator
+var number = 69
+
+if (number >= 10 && number <= 72  || number == 69) {
+    print("I'm not that old")
+}else{
+    print("you are a middle age")
+}
+
+
+let letter = "a"
+
+switch letter{
+case "b","c","a": print("we found \(letter)")
+default:  break
+}
+
 
 
