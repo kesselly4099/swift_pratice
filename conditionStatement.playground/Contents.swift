@@ -51,7 +51,7 @@ let yes = (Lang, DoB)
 switch yes{
 case ("Eng",2) :print("this is english")
 default:
-    <#code#>
+    
 }
 
 // grouping comparasion operator with logical operator
@@ -86,4 +86,10 @@ if freeApp{
     print("the place is warm is \(eveningTemperature) ")
 }
 
+// loops
 
+let names = ["kesselly","kell","kamara"]
+
+for nam in names{
+    print(nam)
+}
