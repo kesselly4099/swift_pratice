@@ -93,3 +93,9 @@ let names = ["kesselly","kell","kamara"]
 for nam in names{
     print(nam)
 }
+
+var name = kes
+
+while name == kesselly{
+    print(1)
+}
