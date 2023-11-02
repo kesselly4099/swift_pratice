@@ -50,7 +50,7 @@ if Lang == "Eng" && DoB == 24 {
 let yes = (Lang, DoB)
 switch yes{
 case ("Eng",2) :print("this is english")
-default:
+default: break
     
 }
 
@@ -68,7 +68,7 @@ let letter = "a"
 
 switch letter{
 case "b","c","a": print("we found \(letter)")
-default:  break
+default: break
 }
 
 // small weather app pratice
@@ -94,8 +94,9 @@ for nam in names{
     print(nam)
 }
 
-var name = kes
+var first = Int.random(in: 1...6)
+var second = Int.random(in: 1...6)
 
-while name == kesselly{
-    print(1)
+while first != second{
+    print( "this is the frist \(first)")
 }
