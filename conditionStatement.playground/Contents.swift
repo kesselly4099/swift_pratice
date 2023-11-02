@@ -105,5 +105,14 @@ repeat{
       
     
     print( "this is the frist \(first)")
+            
+            
+        for i in 1...6{
+        print("This is I: \(i)")
+        
+        for e in 1...3{
+            print("This is E: \(e)")
+        }
+    }
     
 
