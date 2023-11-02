@@ -105,5 +105,59 @@ repeat{
       
     
     print( "this is the frist \(first)")
+            
+            
+        for i in 1...6{
+        print("This is I: \(i)")
+        
+        for e in 1...3{
+            print("This is E: \(e)")
+        }
+    }
+
+
+var month = 1
+
+while (month < 5 ){
+   
+    print("This the month \(month)")
+    for i in 1...4 {
+        
+        print("Count \(i)")
+    }
+    
+    
+    
+    month += 1
+    if month == 3{
+        break
+    }
+    print("")
+}
+
+
+
+let level = 10
+let freeLevel = 4
+let bonusLevel = 3
+
+    for i in 1...level{
+        if i == bonusLevel{
+            print("You are in the Bonus Level: \(i)")
+            continue
+           
+        }
+       
+        print("the real statement \(i)")
+   
+}
+
+
+for e in 1...level{
+    if e == freeLevel{
+        print("Current Level is free \(e)")
+        break
+    }
+}
     
 
