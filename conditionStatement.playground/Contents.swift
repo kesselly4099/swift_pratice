@@ -94,9 +94,16 @@ for nam in names{
     print(nam)
 }
 
-var first = Int.random(in: 1...6)
-var second = Int.random(in: 1...6)
-
-while first != second{
-    print( "this is the frist \(first)")
+var first = 0
+var second = 0
+repeat{
+    first = Int.random(in: 1...6)
+    second = Int.random(in: 1...6)
+    
 }
+    while first != second
+      
+    
+    print( "this is the frist \(first)")
+    
+
